@@ -11,9 +11,12 @@ How to compile the program:
 You may simply use the makefile (type make) to compile both twitterTrend_server.c twitterTrend_client.c 
 
 How to use the program from the shell (syntax):
-    ./twitterTrend_server 2345 2 (in machine 0)
-    ./twitterTrend_client 127.0.0.1 2345 client1.in (in machine 1 or terminal 1)
-    ./twitterTrend_client 127.0.0.1 2345 client2.in (in machine 2 or terminal 2)
+
+```   
+./twitterTrend_server 2345 2   //(in machine 0)
+./twitterTrend_client 127.0.0.1 2345 client1.in   //(in machine 1 or terminal 1)
+./twitterTrend_client 127.0.0.1 2345 client2.in   //(in machine 2 or terminal 2)
+```
 
 What exactly the program does:
     
